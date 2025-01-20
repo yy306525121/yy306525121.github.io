@@ -43,11 +43,11 @@ export default hopeTheme(
     fullscreen: true,
 
     // 默认为 GitHub. 同时也可以是一个完整的 URL
-    repo: "rockbenben/LearnData",
+    repo: "yy306525121/yy306525121.github.io",
     // 自定义仓库链接文字。默认从 `repo` 中自动推断为 "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repoLabel: "GitHub",
     // 是否在导航栏内显示仓库链接，默认为 `true`
-    repoDisplay: true,
+    repoDisplay: false,
     // 文档存放路径
     docsDir: "docs",
 
@@ -73,17 +73,17 @@ export default hopeTheme(
     // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
     blog: {
       articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-      name: "清顺",
-      avatar: "/avatar_self.webp",
-      description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
+      name: "杨",
+      avatar: "/avatar.jpg",
+      description: "一个普通的Java后端开发人员",
       intro: "/intro.html",
       medias: {
-        GitHub: "https://github.com/rockbenben",
-        Zhihu: "https://www.zhihu.com/people/qingwhat",
-        少数派: { icon: "https://newzone.top/icons/sspai.svg", link: "https://sspai.com/u/zqj05i4v/posts" },
-        Wechat: "https://img.newzone.top/wechat.svg",
-        Email: "mailto:learndata@newzone.top",
-        Discord: "https://discord.gg/PZTQfJ4GjX",
+        GitHub: "https://github.com/yy306525121",
+        // Zhihu: "https://www.zhihu.com/people/qingwhat",
+        // 少数派: { icon: "https://newzone.top/icons/sspai.svg", link: "https://sspai.com/u/zqj05i4v/posts" },
+        // Wechat: "https://img.newzone.top/wechat.svg",
+        Email: "mailto:306525121@qq.com",
+        // Discord: "https://discord.gg/PZTQfJ4GjX",
         RSS: "/rss.xml",
       },
     },
