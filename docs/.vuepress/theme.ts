@@ -115,10 +115,10 @@ export default hopeTheme(
 
       // 评论配置（仅做样例，记得更换）
       comment: {
-        /*
+
       // 在本地运行 `pnpm docs:dev` 并使用非 localhost 域名时，容易出现 403 错误，移除本部分即可解决
       provider: "Waline",
-      serverURL: "https://waline.newzone.top",
+      serverURL: "https://comment.codeyang.cn",
       reaction: [
         "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44d.png",
         "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44f.png",
@@ -147,14 +147,15 @@ export default hopeTheme(
           level5: "化神",
         },
       },
-      */
 
+        /*
         // Giscus
         provider: "Giscus",
         repo: "rockbenben/giscus-comment",
         repoId: "R_kgDOM_MPJA",
         category: "Comments",
         categoryId: "DIC_kwDOM_MPJM4CjS0P",
+        */
       },
 
       // 组件库
