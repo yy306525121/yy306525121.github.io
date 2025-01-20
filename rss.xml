@@ -6,12 +6,23 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 20 Jan 2025 09:06:23 GMT</pubDate>
-    <lastBuildDate>Mon, 20 Jan 2025 09:06:23 GMT</lastBuildDate>
+    <pubDate>Mon, 20 Jan 2025 10:26:33 GMT</pubDate>
+    <lastBuildDate>Mon, 20 Jan 2025 10:26:33 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
     <category>使用指南</category>
+    <item>
+      <title>博客文章样例 3</title>
+      <link>https://newzone.top/posts/2024-03-02-blog_example3.html</link>
+      <guid>https://newzone.top/posts/2024-03-02-blog_example3.html</guid>
+      <source url="https://newzone.top/rss.xml">博客文章样例 3</source>
+      <description>博客文章内容，支持 Markdown 和 HTML 语言。</description>
+      <category>工具</category>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>博客文章内容，支持 Markdown 和 HTML 语言。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>博客文章样例 2</title>
       <link>https://newzone.top/posts/2024-03-02-blog_example2.html</link>
