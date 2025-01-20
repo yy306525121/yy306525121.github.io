@@ -6,6 +6,23 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   { text: "博客", icon: "fa6-solid:blog", link: "/blog" },
   {
+    text: "专题",
+    icon: "fa6-solid:puzzle-piece",
+    prefix: "/",
+    children: [
+      {
+        text: "Docker容器",
+        icon: "tabler:brand-docker",
+        link: "topic/docker/"
+      },
+      {
+        text: "Nas教程",
+        icon: "fa6-solid:server",
+        link: "topic/nas/"
+      },
+    ]
+  },
+  {
     text: "应用",
     icon: "fa6-solid:bars-staggered",
     prefix: "/",
