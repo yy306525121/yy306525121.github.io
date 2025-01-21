@@ -21,7 +21,7 @@ MacOS 自用软件，以开源软件为主。
 
 视频下载：[Downie](https://www.downie.cn)🖥️
 
-影音服务器：[Plex](https://www.plex.tv/)(登录等操作需要梯子) & & [Emby](https://emby.media/)📱🖥️
+影音服务器：[Plex](https://www.plex.tv/)(登录等操作需要梯子) && [Emby](https://emby.media/)📱🖥️
 
 视频刮削：[mdcx](https://github.com/sqzw-x/mdcx)（9kg刮削）🖥️
 
