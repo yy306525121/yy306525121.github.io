@@ -171,7 +171,7 @@ if __name__ == "__main__":
 
 ```bash
   launchctl load ~/Library/LaunchAgents/com.user.change_wallpaper.plist
-``
+```
 
 * 启动定时任务：
 
