@@ -169,7 +169,7 @@ if __name__ == "__main__":
 * 将 your_username 替换为你的 macOS 用户名，并确保脚本路径正确。
 * 加载定时任务:
 
-``bash
+```bash
   launchctl load ~/Library/LaunchAgents/com.user.change_wallpaper.plist
 ``
 
