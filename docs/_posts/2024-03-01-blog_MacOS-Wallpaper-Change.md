@@ -166,10 +166,13 @@ if __name__ == "__main__":
 * 将上述 plist 文件保存到 ~/Library/LaunchAgents/com.user.change_wallpaper.plist。
 * 将 your_username 替换为你的 macOS 用户名，并确保脚本路径正确。
 * 加载定时任务:
+
 ``bash
   launchctl load ~/Library/LaunchAgents/com.user.change_wallpaper.plist
 ``
+
 * 启动定时任务：
+
 ```bash
 launchctl start com.user.change_wallpaper
 ```
