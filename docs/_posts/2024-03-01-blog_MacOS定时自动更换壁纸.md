@@ -33,6 +33,8 @@ order: -1
 ## 提供几个壁纸API，可自行替换脚本中的WALLPAPER_URL
 * [Bing壁纸](https://bing.ee123.net)
 * [美女壁纸](https://api.liuzhuai.com/img/)
+* [随机美女壁纸2](https://api.btstu.cn/sjbz/api.php?lx=meizi&format=images)
+* [随机二次元壁纸](https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images)
 
 ## Python脚本
 
