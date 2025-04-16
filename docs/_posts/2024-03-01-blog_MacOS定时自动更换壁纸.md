@@ -31,8 +31,8 @@ order: -1
 * 确保壁纸文件夹和脚本文件有适当的读写权限。
 
 ## 提供几个壁纸API，可自行替换脚本中的WALLPAPER_URL
-* https://bing.ee123.net
-* https://api.liuzhuai.com/img/
+* [Bing壁纸](https://bing.ee123.net)
+* [美女壁纸](https://api.liuzhuai.com/img/)
 
 ## Python脚本
 
