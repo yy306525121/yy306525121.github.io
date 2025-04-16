@@ -114,9 +114,11 @@ def change_wallpaper():
     try:
         # 修正后的 AppleScript，兼容多显示器和最新 macOS
         script = f"""
-        tell application "Finder"
-            set desktop picture to POSIX file "{wallpaper_path}"
-        end tell
+          tell application "System Events"
+            tell every desktop
+              set picture to "{wallpaper_path}"
+            end tell
+          end tell
         """
         result = subprocess.run(['osascript', '-e', script], capture_output=True, text=True, check=True)
         logging.info(f"壁纸已更改为: {wallpaper_path}")
