@@ -30,6 +30,10 @@ order: -1
 * 如果壁纸没有正确更换，检查日志文件（/Users/your_username/wallpaper_change.log）以排查问题。
 * 确保壁纸文件夹和脚本文件有适当的读写权限。
 
+## 提供几个壁纸API，可自行替换脚本中的WALLPAPER_URL
+* https://bing.ee123.net
+* https://api.liuzhuai.com/img/
+
 ## Python脚本
 
 * 需要将脚本中WALLPAPER_DIR修改为你存放壁纸的实际文件夹路径（例如/Users/your_username/Pictures/Wallpapers）
