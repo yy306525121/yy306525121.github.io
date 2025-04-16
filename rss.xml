@@ -6,8 +6,8 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 16 Apr 2025 05:04:11 GMT</pubDate>
-    <lastBuildDate>Wed, 16 Apr 2025 05:04:11 GMT</lastBuildDate>
+    <pubDate>Wed, 16 Apr 2025 05:09:14 GMT</pubDate>
+    <lastBuildDate>Wed, 16 Apr 2025 05:09:14 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>使用指南</category>
@@ -157,8 +157,10 @@
 <ul>
 <li>将上述 plist 文件保存到 ~/Library/LaunchAgents/com.user.change_wallpaper.plist。</li>
 <li>将 your_username 替换为你的 macOS 用户名，并确保脚本路径正确。</li>
-<li>加载定时任务:
-<code>bash launchctl load ~/Library/LaunchAgents/com.user.change_wallpaper.plist </code></li>
+<li>加载定时任务:</li>
+</ul>
+<p><code>bash   launchctl load ~/Library/LaunchAgents/com.user.change_wallpaper.plist </code></p>
+<ul>
 <li>启动定时任务：</li>
 </ul>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">launchctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> start</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> com.user.change_wallpaper</span></span></code></pre>
