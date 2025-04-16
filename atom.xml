@@ -4,7 +4,7 @@
   <title>LearnData 开源笔记</title>
   <subtitle>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</subtitle>
   <icon>https://newzone.top/favicon.ico</icon>
-  <updated>2025-04-16T05:46:34.593Z</updated>
+  <updated>2025-04-16T05:49:14.409Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://newzone.top/atom.xml"/>
   <link rel="alternate" href="https://newzone.top/"/>
@@ -15,7 +15,7 @@
     <title type="text">MacOS自动更换桌面壁纸</title>
     <id>https://newzone.top/posts/2024-03-01-blog_MacOS-Wallpaper-Change.html</id>
     <link href="https://newzone.top/posts/2024-03-01-blog_MacOS-Wallpaper-Change.html"/>
-    <updated>2025-04-16T05:45:08.000Z</updated>
+    <updated>2025-04-16T05:47:55.000Z</updated>
     <summary type="html"><![CDATA[<p>本次文章通过一个脚本搭配MacOS（Sequoia 15.2）系统的自动化脚本实现一个定期自动更换桌面壁纸的功能，桌面壁纸来源于https://bing.ee123.net，思路来源于Grok AI整理并收集。</p>
 <h2>注意事项</h2>
 <ul>
@@ -163,12 +163,14 @@
 <li>将 your_username 替换为你的 macOS 用户名，并确保脚本路径正确。</li>
 <li>加载定时任务:</li>
 </ul>
-<p><code>bash   launchctl load ~/Library/LaunchAgents/com.user.change_wallpaper.plist </code></p>
-<ul>
-<li>启动定时任务：</li>
-</ul>
-<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">launchctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> start</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> com.user.change_wallpaper</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></content>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">  launchctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> load</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> ~/Library/LaunchAgents/com.user.change_wallpaper.plist</span></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">``</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">*</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 启动定时任务：</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">```</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">bash</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">launchctl</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> start com.user.change_wallpaper</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
     <category term="使用指南"/>
     <category term="MacOS"/>
     <published>2025-04-16T00:00:00.000Z</published>
